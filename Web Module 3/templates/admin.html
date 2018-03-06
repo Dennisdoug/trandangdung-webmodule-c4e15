@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mua Dong Khong Lanh</title>
+  </head>
+  <body>
+    <h1>Admin</h1>
+
+    <table border="1px">
+      <thead>
+        <th>STT</th>
+        <th>Name</th>
+        <th>YOB</th>
+        <th>Gender</th>
+        <th>Phone</th>
+        <th>Status</th>
+      </thead>
+      <tbody>
+        {% for service in services %}
+
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ service.name }}</td>
+            <td>{{ service.yob }}</td>
+            <td>
+              <!-- {% if service.gender == 0 %}
+                  Female
+              {% else %}
+                  male
+              {% endif %} -->
+              {{ "Female" if service.gender == 0 else "Male" }}
+            </td>
+            <td>{{ service.phone }}</td>
+            <td>
+              <!-- {% if service.status == "True" %}
+                  Available
+              {% else %}
+                  N/A
+              {% endif %} -->
+              {{ "N/A" if service.status else "Available"}}
+            </td>
+            <td>
+              <a href = "#">Update</a>
+              <a href = "{{ url_for('delete', service_id = service.id) }}">Delete</a>
+          </tr>
+        {% endfor %}
+
+      </tbody>
+
+    </table>
+  </body>
+</html>

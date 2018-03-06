@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for service in all_services %}
+
+        <p>{{ service.name }}</p>
+        <p>{{ service.yob }}</p>
+        <p>{{ service.gender }}</p>
+        <p>{{ service.height }}</p>
+        <p>{{ service.description }}</p>
+        <p>{{ service.photo }}</p>
+        <p>{{ service.measurement }}</p>
+
+    {% endfor %}
+
+  </body>
+</html>
