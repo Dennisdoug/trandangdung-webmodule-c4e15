@@ -1,0 +1,47 @@
+h1  {
+  color: #5e6ba5;
+  text-align: center;
+}
+
+#hello-tag {
+  color: green;
+}
+
+.text-blue {
+  color: blue;
+}
+
+h2{
+  font-family: 'Rammetto One', cursive;
+  font-size: 50px;
+}
+
+.h-500px {
+  height: 500px;
+}
+
+.bg-green {
+  background: green;
+}
+
+.background {
+  background-image: url("https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.w-200px {
+  width: 200px;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
