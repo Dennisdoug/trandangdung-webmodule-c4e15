@@ -1,0 +1,77 @@
+.bg-lightgreen{
+Background: #252125;
+}
+
+.bg-white{
+background: white;
+}
+
+.text-white{
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-dark{
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navigation ul{
+  list-style: none;
+}
+
+li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+#go-pro:hover{
+  background: #4dadf7;
+  color: white;
+}
+
+.text-blue{
+  color: #699bdd;
+}
+
+#navigation{
+  height: 80px;
+  line-height: 80px;
+}
+
+#go-pro{
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.mt-0px{
+  margin-top: 0px;
+}
+
+.mx-15px{
+  margin: 0px 15px;
+}
+
+.mx-10px{
+  margin: 0px 10px;
+}
+
+.font-size-1-5em{
+  font-size: 1.5em;
+}
+
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.h-30{
+  height: 30px;
+}
